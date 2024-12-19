@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <div style="width: 300px; padding: 20px; margin: 100px auto; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center; margin-bottom: 20px;">Login</h2>
+        <form action="/submit" method="POST">
+            <div style="margin-bottom: 15px;">
+                <label for="username" style="font-weight: bold; display: block;">Username</label>
+                <input type="text" id="username" name="username" required placeholder="Enter username" style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="password" style="font-weight: bold; display: block;">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Enter password" style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <button type="submit" style="width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Login</button>
+        </form>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <p>Don't have an account? <a href="#" style="color: #4CAF50;">Sign up</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
